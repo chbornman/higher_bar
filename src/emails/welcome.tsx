@@ -93,7 +93,7 @@ const header = {
 };
 
 const logo = {
-  color: "#c41e3a",
+  color: "#7ab89a",
   fontSize: "32px",
   fontWeight: "700",
   fontStyle: "italic",
