@@ -29,7 +29,7 @@ export async function POST(request: NextRequest) {
 
     // Send welcome/confirmation email
     const { error } = await resend.emails.send({
-      from: "Higher Bar <noreply@calebbornman.com>",
+      from: "Higher Bar <onboarding@resend.dev>",
       to: email,
       subject: "Welcome to Higher Bar!",
       react: WelcomeEmail({ email }),
